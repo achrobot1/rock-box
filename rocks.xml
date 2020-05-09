@@ -1,0 +1,123 @@
+<root>
+  <Rock id="0">
+    <Name>Opal</Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info>Opal is a hydrated amorphous form of silica (SiO2·nH2O); its water content may range from 3 to 21% by weight, but is usually between 6 and 10%. Because of its amorphous character, it is classed as a mineraloid, unlike crystalline forms of silica, which are classed as minerals. It is deposited at a relatively low temperature and may occur in the fissures of almost any kind of rock, being most commonly found with limonite, sandstone, rhyolite, marl, and basalt. Opal is the national gemstone of Australia.
+The internal structure of precious opal makes it diffract light. Depending on the conditions in which it formed, it can take on many colors. Precious opal ranges from clear through white, gray, red, orange, yellow, green, blue, magenta, rose, pink, slate, olive, brown, and black. Of these hues, the black opals are the most rare, whereas white and greens are the most common. Opals vary in optical density from opaque to semitransparent.</Info>
+    <Source>Arizona</Source>
+  </Rock>
+  <Rock id="1">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="2">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="3">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="4">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="5">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="6">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="7">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="8">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="9">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="10">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+  <Rock id="11">
+    <Name></Name>
+    <Date>
+      <Day>14</Day>
+      <Month>10</Month>
+      <Year>2016</Year>
+    </Date>
+    <Info></Info>
+    <Source></Source>
+  </Rock>
+</root>

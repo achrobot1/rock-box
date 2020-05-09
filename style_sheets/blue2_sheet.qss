@@ -1,0 +1,17 @@
+QMainWindow{
+    background-image: qlineargradient(spread:pad, x1:0.5, y1:0.785, x2:0.5, y2:0.968, stop:0 rgba(0, 0, 54, 255), stop:1 rgba(0, 0, 255, 221));
+}
+QPushButton { 
+    background-color: qlineargradient(spread:pad, x1:0.502, y1:0.597, x2:0.502, y2:1, stop:0 rgba(0, 221, 255, 255), stop:1 rgba(108, 108, 108, 255));
+    border: none;
+    color: white;
+}
+
+QPushButton::hover {
+    background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.441296 rgba(3, 255, 255, 226), stop:1 rgba(255, 255, 255, 0));
+}
+
+
+QLabel {
+color: gray;
+}

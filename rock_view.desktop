@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Rock View
+Path=/home/pi/Documents/Rock_box/
+Exec=/home/pi/Documents/Rock_box/display_window.py
+Icon=/home/pi/Documents/Rock_box/turkoi2.png
+Terminal=False;
