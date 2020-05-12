@@ -1,5 +1,5 @@
 QMainWindow{
-    border-image: url('./background.png');
+    border-image: url('../images/background.png');
 }
 
 
