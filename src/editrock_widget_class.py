@@ -40,7 +40,7 @@ class EditRockWidget(QWidget):
         self.home_icon = QIcon.fromTheme("go-home")
         self.menu_button.setIcon(self.home_icon)
         
-        self.wiki_icon = QIcon("../images/wikipedia.png")
+        self.wiki_icon = QIcon("/home/pi/Documents/rock-box/images/wikipedia.png")
         self.wiki_button.setIcon(self.wiki_icon)
                         
         #connections

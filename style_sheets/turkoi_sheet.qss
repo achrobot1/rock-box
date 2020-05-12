@@ -1,5 +1,5 @@
 QMainWindow{
-    border-image: url('../images/background.png');
+    border-image: url('/home/pi/Documents/rock-box/images/background.png');
 }
 
 

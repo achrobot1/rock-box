@@ -91,7 +91,7 @@ class Display_window(QMainWindow):
         #return the path of the .xml file the user wants to display
         
         # self.usb_path = '/home/pi/mnt/usb0/'
-        self.usb_path = '../'
+        self.usb_path = '/home/pi/Documents/rock-box/'
         
         if len(os.listdir(self.usb_path)) == 0:
             #Error dialog, USB not found
@@ -141,14 +141,14 @@ class Display_window(QMainWindow):
         #display the proper edit rock page when a button is pressed        
         self.stacked_widget.setCurrentWidget(widget)
         if widget != self.main_widget:
-            self.setStyleSheet("QMainWindow { border-image: url('../images/background2.png'); }")
+            self.setStyleSheet("QMainWindow { border-image: url('/home/pi/Documents/rock-box/images/background2.png'); }")
         else:
-            self.setStyleSheet("QMainWindow { border-image: url('../images/background.png'); }")
+            self.setStyleSheet("QMainWindow { border-image: url('/home/pi/Documents/rock-box/images/background.png'); }")
 
 def main():  
     rock_display_application = QApplication(sys.argv)
     rock_display_application.setStyle('plastique')
-    style_sheet = open('../style_sheets/turkoi_sheet.qss').read()
+    style_sheet = open('/home/pi/Documents/rock-box/style_sheets/turkoi_sheet.qss').read()
     rock_display_application.setStyleSheet(style_sheet)
     display_window = Display_window() #create new instance of main window
     display_window.show()

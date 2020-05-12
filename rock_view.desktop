@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
 Name=Rock View
-Path=/home/pi/Documents/temp/rock-box/
-Exec=/home/pi/Documents/temp/rock-box/src/display_window.py
-Icon=/home/pi/Documents/temp/rock-box/images/turkoi2.png
+Path=/home/pi/Documents/rock-box/
+Exec=/home/pi/Documents/rock-box/src/display_window.py
+Icon=/home/pi/Documents/rock-box/images/turkoi2.png
 # Terminal=False;
 Terminal=True;
