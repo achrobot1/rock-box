@@ -153,7 +153,8 @@ def main():
     display_window = Display_window() #create new instance of main window
     display_window.show()
     display_window.raise_() # raise instance to top of window stack
-    os.system("python ~/Documents/Dotstar/Adafruit_DotStar_Pi/white.py")
+    # os.system("python ~/Documents/Dotstar/Adafruit_DotStar_Pi/white.py")
+    os.system("python /home/pi/Documents/rock-box/src/led-startup.py")
     rock_display_application.exec_() #monitor application for events
 
 if __name__ == "__main__":
