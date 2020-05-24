@@ -90,8 +90,8 @@ class Display_window(QMainWindow):
     def get_path(self):
         #return the path of the .xml file the user wants to display
         
-        # self.usb_path = '/home/pi/mnt/usb0/'
-        self.usb_path = '/home/pi/Documents/rock-box/'
+        self.usb_path = '/home/pi/mnt/usb0/'
+        # self.usb_path = '/home/pi/Documents/rock-box/'
         
         if len(os.listdir(self.usb_path)) == 0:
             #Error dialog, USB not found
@@ -153,8 +153,8 @@ def main():
     display_window = Display_window() #create new instance of main window
     display_window.show()
     display_window.raise_() # raise instance to top of window stack
-    # os.system("python ~/Documents/Dotstar/Adafruit_DotStar_Pi/white.py")
-    os.system("python /home/pi/Documents/rock-box/src/led-startup.py")
+    os.system("python ~/Documents/Dotstar/Adafruit_DotStar_Pi/white.py")
+    # os.system("python /home/pi/Documents/rock-box/src/led-startup.py")
     rock_display_application.exec_() #monitor application for events
 
 if __name__ == "__main__":
