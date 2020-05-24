@@ -1,3 +1,4 @@
 src/__pycache__/
 src/select_file_dialog.pyc
 src/viewrock_widget_class.pyc
+src/editrock_widget_class.pyc

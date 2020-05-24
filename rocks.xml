@@ -11,24 +11,31 @@ The internal structure of precious opal makes it diffract light. Depending on th
     <Source>Arizona</Source>
   </Rock>
   <Rock id="1">
-    <Name></Name>
+    <Name>Ruby</Name>
     <Date>
       <Day>14</Day>
       <Month>10</Month>
       <Year>2016</Year>
     </Date>
-    <Info></Info>
-    <Source></Source>
+    <Info>A ruby is a pink to blood-red colored gemstone, a variety of the mineral corundum (aluminium oxide). Other varieties of gem-quality corundum are called sapphires. Ruby is one of the traditional cardinal gems, together with amethyst, sapphire, emerald, and diamond. The word ruby comes from ruber, Latin for red. The color of a ruby is due to the element chromium.
+Some gemstones that are popularly or historically called rubies, such as the Black Prince's Ruby in the British Imperial State Crown, are actually spinels. These were once known as "Balas rubies".
+The quality of a ruby is determined by its color, cut, and clarity, which, along with carat weight, affect its value. The brightest and most valuable shade of red called blood-red or pigeon blood, commands a large premium over other rubies of similar quality. After color follows clarity: similar to diamonds, a clear stone will command a premium, but a ruby without any needle-like rutile inclusions may indicate that the stone has been treated. Ruby is the traditional birthstone for July and is usually pinker than garnet, although some rhodolite garnets have a similar pinkish hue to most rubies. The world's most valuable ruby is the Sunrise Ruby.</Info>
+    <Source>Utah</Source>
   </Rock>
   <Rock id="2">
-    <Name></Name>
+    <Name>Diamond</Name>
     <Date>
       <Day>14</Day>
       <Month>10</Month>
       <Year>2016</Year>
     </Date>
-    <Info></Info>
-    <Source></Source>
+    <Info>Diamond is a solid form of the element carbon with its atoms arranged in a crystal structure called diamond cubic. At room temperature and pressure, another solid form of carbon known as graphite is the chemically stable form, but diamond almost never converts to it. Diamond has the highest hardness and thermal conductivity of any natural material, properties that are utilized in major industrial applications such as cutting and polishing tools. They are also the reason that diamond anvil cells can subject materials to pressures found deep in the Earth.
+Because the arrangement of atoms in diamond is extremely rigid, few types of impurity can contaminate it (two exceptions being boron and nitrogen). Small numbers of defects or impurities (about one per million of lattice atoms) color diamond blue (boron), yellow (nitrogen), brown (defects), green (radiation exposure), purple, pink, orange or red. Diamond also has relatively high optical dispersion (ability to disperse light of different colors).
+Most natural diamonds have ages between 1 billion and 3.5 billion years. Most were formed at depths between 150 and 250 kilometres (93 and 155 mi) in the Earth's mantle, although a few have come from as deep as 800 kilometres (500 mi). Under high pressure and temperature, carbon-containing fluids dissolved minerals and replaced them with diamonds. Much more recently (tens to hundreds of million years ago), they were carried to the surface in volcanic eruptions and deposited in igneous rocks known as kimberlites and lamproites.
+Synthetic diamonds can be grown from high-purity carbon under high pressures and temperatures or from hydrocarbon gas by chemical vapor deposition (CVD). Imitation diamonds can also be made out of materials such as cubic zirconia and silicon carbide. Natural, synthetic and imitation diamonds are most commonly distinguished using optical techniques or thermal conductivity measurements.
+
+</Info>
+    <Source>Iran</Source>
   </Rock>
   <Rock id="3">
     <Name></Name>
