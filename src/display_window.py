@@ -3,6 +3,9 @@
 import sys
 import os
 
+import board
+import adafruit_dotstar
+
 from viewrock_widget_class import *
 from select_file_dialog import *
 
@@ -158,6 +161,10 @@ class Display_window(QMainWindow):
             self.setStyleSheet("QMainWindow { border-image: url('/home/pi/Documents/rock-box/images/background2.png'); }")
         else:
             self.setStyleSheet("QMainWindow { border-image: url('/home/pi/Documents/rock-box/images/background.png'); }")
+def set_all_pixels_white():
+    pixels = adafruit_dotstar.DotStar(board.SCLK, board.MOSI, 1)
+    for p in pixels:
+        p = (255, 255, 255)
 
 def main():  
     rock_display_application = QApplication(sys.argv)
@@ -167,8 +174,8 @@ def main():
     display_window = Display_window() #create new instance of main window
     display_window.show()
     display_window.raise_() # raise instance to top of window stack
-    os.system("python ~/Documents/Dotstar/Adafruit_DotStar_Pi/white.py")
-    # os.system("python /home/pi/Documents/rock-box/src/led-startup.py")
+    # os.system("python ~/Documents/Dotstar/Adafruit_DotStar_Pi/white.py")
+    set_all_pixels_white()
     rock_display_application.exec_() #monitor application for events
 
 if __name__ == "__main__":
