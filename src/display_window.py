@@ -162,9 +162,10 @@ class Display_window(QMainWindow):
         else:
             self.setStyleSheet("QMainWindow { border-image: url('/home/pi/Documents/rock-box/images/background.png'); }")
 def set_all_pixels_white():
-    pixels = adafruit_dotstar.DotStar(board.SCLK, board.MOSI, 1)
-    for p in pixels:
-        p = (255, 255, 255)
+    pixels = adafruit_dotstar.DotStar(board.SCLK, board.MOSI,
+            60,
+            brightness=0.3)
+    pixels.fill((255,255,255))
 
 def main():  
     rock_display_application = QApplication(sys.argv)
