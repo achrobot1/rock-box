@@ -4,5 +4,5 @@ Name=Rock View
 Path=/home/pi/Documents/rock-box/
 Exec=/home/pi/Documents/rock-box/src/display_window.py
 Icon=/home/pi/Documents/rock-box/images/turkoi2.png
-# Terminal=False;
-Terminal=True;
+Terminal=False;
+# Terminal=True;

@@ -90,16 +90,29 @@ class Display_window(QMainWindow):
     def get_path(self):
         #return the path of the .xml file the user wants to display
         
-        self.usb_path = '/home/pi/mnt/usb0/'
+        self.usb_path = '/media/pi'
+        # self.usb_path = '/home/pi/mnt/usb0/'
         # self.usb_path = '/home/pi/Documents/rock-box/'
+
+        # traverse /media/pi looking for files ending in '.xml'
+        xml_file_list = []
+        for root, _, filenames_list in os.walk(self.usb_path):
+            for f in filenames_list:
+                if f.endswith('.xml'):
+                    xml_file_list.append(os.path.join(root,f))
+
+
+
         
-        if len(os.listdir(self.usb_path)) == 0:
+        # if len(os.listdir(self.usb_path)) == 0:
+        if len(xml_file_list) == 0:
             #Error dialog, USB not found
             QMessageBox.warning(self, "Message", "USB drive missing. Unable to display your collection")
             exit()
             
         self.d = SelectFileDialog()
-        for File in os.listdir(self.usb_path):
+        # for File in os.listdir(self.usb_path):
+        for File in xml_file_list:
             if File.endswith('.xml'):
                 self.d.text_list.addItem(str(File))
         #connections
@@ -109,7 +122,8 @@ class Display_window(QMainWindow):
         
     def get_file(self):
         #used to return the selected .xml file from self.d dialog in get_path()
-        self.xml_file =  self.usb_path + self.d.text_list.currentItem().text()
+        # self.xml_file =  self.usb_path + self.d.text_list.currentItem().text()
+        self.xml_file =  self.d.text_list.currentItem().text()
         self.d.close()    
             
     def read_xml(self):
